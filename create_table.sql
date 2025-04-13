@@ -5,7 +5,7 @@ CREATE TABLE IF NOT EXISTS guild (
 
 CREATE TABLE IF NOT EXISTS post (
   id INTEGER PRIMARY KEY,
-  guild_id TEXT NOT NULL,
+  guild_id INTEGER NOT NULL,
   author TEXT NOT NULL,
   content TEXT NOT NULL,
   FOREIGN KEY (guild_id) REFERENCES guild(id)

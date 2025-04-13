@@ -2,9 +2,12 @@
 A discord bot to turn an announcement channel into an RSS feed.
 
 # TODO
-- [ ] Use unix time as timestamps on go side, convert to UTC in template.
-- [ ] Setup discordgo 
-- [ ] Parse discord chat into SQLITE table containing our data.
+- [ ] Start building out the atom feeds.
+- [ ] javascript to show local time from UTC string that we build from snowflake.
 - [ ] Style the ATOM file https://darekkay.com/blog/rss-styling/
 - [ ] Good atom example https://darekkay.com/atom.xml
 - [ ] https://pkg.go.dev/github.com/gorilla/feeds#Feed
+- [ ] https://en.wikipedia.org/wiki/Comparison_of_feed_aggregators
+- [ ] https://chrismorgan.info/feed.xml
+- [ ] https://photos.darekkay.com/atom.xml
+
